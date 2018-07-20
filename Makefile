@@ -9,3 +9,6 @@ data:
 
 ipykernel:
 	python $(VIRTUAL_ENV)/lib/python3.6/site-packages/ipykernel install --user --name=timeseries-crypto
+
+present:
+	jupyter nbconvert Time\ series\ analysis\ of\ crypto\ data.ipynb --to slides --post serve
